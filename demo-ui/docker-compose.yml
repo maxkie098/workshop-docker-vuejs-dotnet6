@@ -1,0 +1,9 @@
+version: "3"
+services:
+  ui:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: somkiat/ui:1.0
+    ports:
+      - "9998:80"
