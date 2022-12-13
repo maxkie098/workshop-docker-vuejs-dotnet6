@@ -33,3 +33,5 @@ $docker compose up -d
 $docker compose ps
 $docker compose log --follow
 ```
+
+## >>[More workshop](https://github.com/up1/workshop-docker-vuejs-dotnet6/wiki)
