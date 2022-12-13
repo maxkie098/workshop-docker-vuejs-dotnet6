@@ -1,5 +1,6 @@
 # Workshop with Distributed tracing
 * .Net 6
+* Messaging server with [RabiitMQ](https://www.rabbitmq.com/)
 * [OpenTelemetry](https://opentelemetry.io/)
 * [Zipkin](https://zipkin.io/)
 
