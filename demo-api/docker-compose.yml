@@ -8,3 +8,15 @@ services:
       - 8888:80
     # environment:
     #   - EXTERNAL_API_URL=https://jsonplaceholder.typicode.com/users
+
+  prometheus:
+    image: prom/prometheus
+    ports:
+      - 9090:9090
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+
+  grafana:
+    image: grafana/grafana-oss
+    ports:
+      - 3000:3000
