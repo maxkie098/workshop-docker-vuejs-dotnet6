@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LicgzS9ef66GGj/JgUMO5wUMO3PkZjbZ4Ld95/wRZEPZNKopoa8oVBnV3LltjieagoS0ay4zWLx89pCdw8LDdw==",
+  "dgSpecHash": "tTkO8DfsmMtHRRXKF+BY5FsyPgEKWRgdEHYQ07t7XiFM8g/N5AVZwZYn3LNt3HjlEcUndFth+t8w25XFfZQvrg==",
   "success": true,
   "projectFilePath": "/Users/somkiat/data/slide/microservice/skooldio/ui-vue/microservice-example/WebApi/WebApi.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,7 @@
     "/Users/somkiat/.nuget/packages/opentelemetry.extensions.dependencyinjection/1.4.0-rc.1/opentelemetry.extensions.dependencyinjection.1.4.0-rc.1.nupkg.sha512",
     "/Users/somkiat/.nuget/packages/opentelemetry.extensions.hosting/1.4.0-rc.1/opentelemetry.extensions.hosting.1.4.0-rc.1.nupkg.sha512",
     "/Users/somkiat/.nuget/packages/opentelemetry.instrumentation.aspnetcore/1.0.0-rc9.10/opentelemetry.instrumentation.aspnetcore.1.0.0-rc9.10.nupkg.sha512",
+    "/Users/somkiat/.nuget/packages/opentelemetry.instrumentation.http/1.0.0-rc9.10/opentelemetry.instrumentation.http.1.0.0-rc9.10.nupkg.sha512",
     "/Users/somkiat/.nuget/packages/rabbitmq.client/6.4.0/rabbitmq.client.6.4.0.nupkg.sha512",
     "/Users/somkiat/.nuget/packages/system.diagnostics.diagnosticsource/7.0.0/system.diagnostics.diagnosticsource.7.0.0.nupkg.sha512",
     "/Users/somkiat/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
