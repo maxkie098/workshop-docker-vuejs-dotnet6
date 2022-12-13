@@ -1,4 +1,5 @@
-﻿using user_service;
+﻿using Prometheus;
+using user_service;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +13,11 @@ builder.Services.AddSwaggerGen();
 var app = builder.Build();
 
 app.MapUsersEndpoints();
+
+
+// Capture metrics about all received HTTP requests.
+app.UseHttpMetrics();
+app.UseMetricServer();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
