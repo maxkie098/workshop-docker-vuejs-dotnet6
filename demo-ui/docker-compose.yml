@@ -4,6 +4,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: somkiat/ui:1.0
+    image: somkiat/ui:2.0
     ports:
       - "9998:80"
+    volumes:
+      - /var/www:/work/logs
