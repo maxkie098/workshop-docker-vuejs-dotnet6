@@ -17,7 +17,11 @@ namespace user_service.Gateways
         {
             var userResponse = new GetUsersResponse();
 
+            // Hard code
             var uri = "https://jsonplaceholder.typicode.com/users";
+
+            // Working with environment variable
+            // var uri = Environment.GetEnvironmentVariable("EXTERNAL_API_URL");
 
             var responseString = await _httpClient.GetStringAsync(uri);
 

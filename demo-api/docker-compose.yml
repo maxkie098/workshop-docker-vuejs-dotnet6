@@ -6,3 +6,5 @@ services:
       dockerfile: Dockerfile
     ports:
       - 8888:80
+    # environment:
+    #   - EXTERNAL_API_URL=https://jsonplaceholder.typicode.com/users
