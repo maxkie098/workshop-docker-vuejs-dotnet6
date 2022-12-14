@@ -1,0 +1,97 @@
+{
+  "id": "3f80fd26-fca7-4247-a6cf-5ab7294db59c",
+  "version": "2.0",
+  "name": "day3-testing",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "a5e96fc5-2b3b-46af-886d-e42d82e09d5c",
+    "name": "case01",
+    "commands": [{
+      "id": "81eb9749-7cfe-43c4-b01a-7b3a72330b09",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a2f485c6-d966-481c-b2f5-104728684eb3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1175",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d75b3ca4-a18f-4cb1-98e8-17aec9dfcb0d",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "efcbdfdc-0637-457a-8804-83fe2e6e3cf8",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "บอลโลก"
+    }, {
+      "id": "d178f864-f22d-4242-a594-75d2ad3a0b25",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "ec2afde8-f36c-4073-b99f-66f94a02c8e4",
+      "comment": "",
+      "command": "click",
+      "target": "id=result-stats",
+      "targets": [
+        ["id=result-stats", "id"],
+        ["css=#result-stats", "css:finder"],
+        ["xpath=//div[@id='result-stats']", "xpath:attributes"],
+        ["xpath=//div[@id='slim_appbar']/div/div", "xpath:idRelative"],
+        ["xpath=//div/div[7]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ec3b4f8-4128-4a83-99a5-f23de03de614",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=result-stats",
+      "targets": [
+        ["id=result-stats", "id"],
+        ["css=#result-stats", "css:finder"],
+        ["xpath=//div[@id='result-stats']", "xpath:attributes"],
+        ["xpath=//div[@id='slim_appbar']/div/div", "xpath:idRelative"],
+        ["xpath=//div/div[7]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "About 44,000,000 results (0.52 seconds) "
+    }]
+  }],
+  "suites": [{
+    "id": "03961d18-2958-499c-ac67-bcfc7e55ebd1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a5e96fc5-2b3b-46af-886d-e42d82e09d5c"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
